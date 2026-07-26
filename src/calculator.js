@@ -7,6 +7,7 @@ const Calculate = () => {
 
     const interest = parseInt(loan) * 0.1
     const DelayInterest = parseInt(interest) / 30 * delayDays
+    const totalInterest = interest + DelayInterest
 
     return (
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
@@ -18,7 +19,7 @@ const Calculate = () => {
                  <label>Dias de Atraso:</label>
                 <input type="number" onChange={(e) => setDelayDays(e.target.value)} />
                 <p>Juros de Mora: {DelayInterest.toFixed(2)}MT</p>
-                <p>Total de Juros: {Number(DelayInterest.toFixed(2) + interest.toFixed(2))}MT</p>
+                <p>Total de Juros: {Number(totalInterest.toFixed(2))}MT</p>
             </div>
         </div>
     )

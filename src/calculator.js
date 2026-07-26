@@ -15,7 +15,7 @@ const Calculate = () => {
             <h3>Calculadora de juros mensais e de mora</h3>
                 <label>Valor de emprestimo:</label>
                 <input type="number" onChange={(e) => setLoan(e.target.value)} />
-                <p>Juros: {interest.toFixed(2)}MT</p>
+                <p>Juros de 10%: {interest.toFixed(2)}MT</p>
                  <label>Dias de Atraso:</label>
                 <input type="number" onChange={(e) => setDelayDays(e.target.value)} />
                 <p>Juros de Mora: {DelayInterest.toFixed(2)}MT</p>

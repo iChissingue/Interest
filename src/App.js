@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <Calculate/>
-      Ola Mundo!
+      MasterMind/ Poupança Virtual
     </div>
   );
 }

@@ -13,7 +13,7 @@ const Calculate = () => {
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
             <div style={{ display: 'flex', flexDirection: 'column', width: 200 }}>
             <h3>Calculadora de juros mensais e de mora</h3>
-                <label>Valor de emprestimo:</label>
+                <label>Valor de empréstimo:</label>
                 <input type="number" onChange={(e) => setLoan(e.target.value)} />
                 <p>Juros de 10%: {interest.toFixed(2)}MT</p>
                  <label>Dias de Atraso:</label>

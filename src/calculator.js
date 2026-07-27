@@ -10,8 +10,8 @@ const Calculate = () => {
     const totalInterest = interest + DelayInterest
 
     return (
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
-            <div style={{ display: 'flex', flexDirection: 'column', width: 200 }}>
+        <div  style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
+            <div id = "inter" style={{ display: 'flex', flexDirection: 'column', width: 200 }}>
             <h3>Calculadora de juros mensais e de mora</h3>
                 <label>Valor de empréstimo:</label>
                 <input type="number" onChange={(e) => setLoan(e.target.value)} />

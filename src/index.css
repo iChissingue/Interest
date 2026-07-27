@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+#inter{
+  background-color: aquamarine;
+  padding: 30px;
+  border-radius: 30px;
+}
+input{
+  border: none;
+  outline: none;
+}

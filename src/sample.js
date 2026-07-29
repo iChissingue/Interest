@@ -111,9 +111,9 @@ export default function Calculator() {
           </div>
         </div>
 
-        {/* Rodapé informativo */}
+      
         <p className="text-center text-slate-400 text-xs mt-6 tracking-wide">
-          Cálculos em Tempo Real
+          Only for MasterMind & Poupança Virtual purposes
         </p>
       </div>
     </div>

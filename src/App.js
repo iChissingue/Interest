@@ -1,10 +1,10 @@
 import './App.css';
-import Calculate from './calculator'
+import Calculator from './sample'
 
 function App() {
   return (
     <div className="App">
-      <Calculate/>
+      <Calculator/>
       MasterMind/ Poupança Virtual
     </div>
   );
